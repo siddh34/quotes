@@ -1,6 +1,8 @@
 <div>
-  <app-button (quote)="onQuoteReceived($event)">
-    <span>Get a new quote</span>
-  </app-button>
+  <div id="button-div">
+    <app-button (quote)="onQuoteReceived($event)">
+      <span>Get a new quote</span>
+    </app-button>
+  </div>
   <app-display [quote]="quoteSelected"></app-display>
 </div>
