@@ -6,8 +6,8 @@ import { ButtonComponent } from "../shared/button/button.component";
   standalone: true,
   imports: [ButtonComponent],
   templateUrl: './quotes.component.html',
-  styleUrl: './quotes.component.css'
+  styleUrl: './quotes.component.css',
 })
 export class QuotesComponent {
-  quote = "You must be change you want to see in the world";
+  quoteSelected: string = 'This is a quote';
 }
