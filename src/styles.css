@@ -1,2 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to right, rgb(0, 255, 170), rgb(174, 0, 255));
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
