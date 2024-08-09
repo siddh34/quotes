@@ -1,9 +1,6 @@
 <div>
-  <app-button>
+  <app-button (quote)="onQuoteReceived($event)">
     <span>Get a new quote</span>
   </app-button>
-
-  <article>
-    <span>Quote: "{{ quoteSelected }}"</span>
-  </article>
+  <app-display [quote]="quoteSelected"></app-display>
 </div>

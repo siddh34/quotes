@@ -7,7 +7,7 @@ import axios from 'axios';
   standalone: true,
   imports: [],
   templateUrl: './button.component.html',
-  styleUrl: './button.component.css'
+  styleUrl: './button.component.css',
 })
 export class ButtonComponent {
   quoteSelected: string = 'This is a quote';
